@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.ImagesMen{
+    width: 500px;
+    height: 350px;
+    margin-top: 4%;
+}
+p{
+    width: 800px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.Flex{
+    display: flex;
+    justify-content: space-around;
+}
+h4{
+    width: 700px;
+    color: blue;
+    font-size: 16px;
+    line-height: 25px;
+}
+h2{
+    font-size: 35px;
+}
