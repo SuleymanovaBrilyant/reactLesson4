@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
 import './Style/Header.css';
 import Qadinlar from './CIns/Qadinlar';
 import Usaqlar from './CIns/Usaqlar';
 import Kisiler from './CIns/Kisiler';
-import Footer from './Footer';
+// import Footer from './Footer';
+// import Main from './Main'
 
 function App() {
-  const navigate = useNavigate();
+  const navigate = useNavigate("/Kisiler");
 
   const handleClickMen = () => {
     navigate('/kisiler');
@@ -40,8 +41,9 @@ function App() {
         <Route path="/qadinlar" element={<Qadinlar />} />
         <Route path="/usaqlar" element={<Usaqlar />} />
         <Route path="/kisiler" element={<Kisiler />} />
+        <Route path="/" element={<Kisiler />} />
       </Routes>
-      <Footer />
+    
     </div>
   );
 }

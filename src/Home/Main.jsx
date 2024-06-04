@@ -1,10 +1,12 @@
 import './Style/Main.css';
-import Kisiler from './CIns/Kisiler'
+// import Kisiler from './CIns/Kisiler'
+
 function Main() {
     return(
         <>
-        <Kisiler />
+        {/* <Kisiler /> */}
         </>
+        
     )
 }
 export default Main;
